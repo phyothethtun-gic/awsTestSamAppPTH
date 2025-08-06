@@ -39,5 +39,5 @@ jobs:
 
       - name: SAM デプロイ
         working-directory: testProject
-        run: sam deploy --no-confirm-changeset --stack-name testProject --capabilities CAPABILITY_IAM--guided
+        run: sam deploy --no-confirm-changeset --stack-name test-project --capabilities CAPABILITY_IAM--guided
 
