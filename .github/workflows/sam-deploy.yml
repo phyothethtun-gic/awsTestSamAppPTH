@@ -40,10 +40,8 @@ jobs:
       - name: SAM デプロイ
         working-directory: testProject
         # run: sam deploy --no-confirm-changeset --stack-name test-project --capabilities CAPABILITY_IAM --resolve-s3
-        run: sam deploy `
-          --stack-name test-project `
-          --capabilities CAPABILITY_IAM `
-          --s3-bucket pth-sam-deploy-bucket
+        run: sam deploy --stack-name test-project --capabilities CAPABILITY_IAM --s3-bucket pth-sam-deploy-bucket
+
 
 
 
